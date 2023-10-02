@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #000;
+}
+.container{
+    background: url(/netflix_clone/images/background.jpg);
+    height: 100vh;
+    background-color: #0000009e;
+}
+.container nav {
+    height: 100px;
+    background: linear-gradient(to bottom, #000000, #00000000);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container nav img {
+    height: 60px;
+    margin-left: 20px;
+}
+
+.container nav select {
+    height: 40px;
+    color: white;
+    background-color: #0000006a;
+    border-radius: 4px;
+    padding: 4px;
+    cursor: pointer;
+}
+
+.container nav button {
+    height: 40px;
+    color: white;
+    background-color: #e50914;
+    border-radius: 4px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    margin-left: 5px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.container nav button:hover{
+    background-color: #cd0812;
+}
+
+.container nav select option {
+    height: 40px;
+    color: white;
+    background-color: #000000;
+    border-radius: 4px;
+    padding: 4px;
+}
+
+.container .title{
+    color: white;
+    padding: 40px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.container .title h3{
+    margin-top: 10px;
+    font-weight: lighter;
+}
+
+.container .signup h3{
+    color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.container .signup .email{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .signup .email input{
+    height: 40px;
+    outline: none;
+    color: white;
+    background:#0000009e;
+    border: 0.5px solid white;
+    border-radius: 4px;
+    padding: 10px;
+    width: 40vw;
+    height: 50px;
+}
+.container .signup .email input:focus{
+    border: 2px solid white;
+}
+
+.container .signup .email button{
+    height: 50px;
+    color: white;
+    background-color: #e50914;
+    border-radius: 4px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    margin-left: 5px;
+    margin-right: 20px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.container .signup .email button:hover{
+    background-color: #cd0812;
+}
+
+.container .sec1{
+    display: flex;
+    color: white;
+    margin-top: 100px;
+    justify-content: space-evenly;
+    padding: 40px;
+}
+
+.container .sec1 img{
+    width: 50vw;
+}
+
+.container .sec1 .text{
+    margin-top: 80px;
+}
+.container .sec1 .text h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
