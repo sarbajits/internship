@@ -9,6 +9,12 @@ nav {
     background-color: #34495e;
     color: #ecf0f1;
     padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav h1 {
+    margin-left: 20px;
 }
 
 nav ul {
@@ -16,6 +22,7 @@ nav ul {
     justify-content: space-evenly;
     list-style: none;
     padding: 0;
+    margin-right: 20px;
 }
 
 nav ul li {
